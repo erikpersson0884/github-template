@@ -177,12 +177,17 @@ If you want to contribute, follow these steps:
 
 # License
 
-<!-- Pick a license and add a LICENSE file, e.g. MIT. -->
+<!-- Pick a license and add a LICENSE file,-->
 Distributed under the {{LICENSE_NAME}} license. See `LICENSE` for more information.
 
 # Authors
 
-- [Erik Persson](https://github.com/erikpersson0884)
+<p align="center">
+  <img src="https://github.com/erikpersson0884.png?size=100" alt="Erik Persson" width="100" height="100" />
+  <br />
+  <strong><a href="https://github.com/erikpersson0884">Erik Persson</a></strong><br />
+  Creator &amp; Maintainer
+</p>
 
 # Acknowledgments
 
