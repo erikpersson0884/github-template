@@ -5,12 +5,8 @@
 
   {{PROJECT_NAME}}        Name of the project
   {{TAGLINE}}             One-line description
-  {{GITHUB_USER}}         GitHub username or organization
   {{REPO_NAME}}           Repository name
-  {{DEFAULT_BRANCH}}      Usually main
   {{CI_WORKFLOW_FILE}}    e.g. tests.yml
-  {{AUTHOR_NAME}}         Your name
-  {{AUTHOR_URL}}          Link to your profile or portfolio
 
   Remove the <!-- hint --> comments before publishing.
 -->
@@ -76,7 +72,7 @@ This repository contains **only the {{frontend / backend / library / CLI}}**. It
 
 ```sh
 # Clone the repository
-git clone https://github.com/{{GITHUB_USER}}/{{REPO_NAME}}.git
+git clone https://github.com/erikpersson0884/{{REPO_NAME}}.git
 
 # Navigate into the project directory
 cd {{REPO_NAME}}
@@ -118,7 +114,7 @@ Tests use {{test framework}}. They cover {{what is covered, e.g. API layer, util
 ```
 
 <!-- Optional: explain how the coverage badge is updated. -->
-The coverage badge is updated by a GitHub Actions workflow on every push to `{{DEFAULT_BRANCH}}`.
+The coverage badge is updated by a GitHub Actions workflow on every push to `main`.
 
 # Code analysis
 
@@ -186,7 +182,7 @@ Distributed under the {{LICENSE_NAME}} license. See `LICENSE` for more informati
 
 # Authors
 
-- [{{AUTHOR_NAME}}]({{AUTHOR_URL}})
+- [Erik Persson](https://github.com/erikpersson0884)
 
 # Acknowledgments
 
@@ -195,17 +191,17 @@ Distributed under the {{LICENSE_NAME}} license. See `LICENSE` for more informati
 
 
 <!-- Repo info shields -->
-[last-commit-shield]: https://img.shields.io/github/last-commit/{{GITHUB_USER}}/{{REPO_NAME}}/{{DEFAULT_BRANCH}}?style=for-the-badge&cacheSeconds=30
-[last-commit-url]: https://github.com/{{GITHUB_USER}}/{{REPO_NAME}}/commits/{{DEFAULT_BRANCH}}
+[last-commit-shield]: https://img.shields.io/github/last-commit/erikpersson0884/{{REPO_NAME}}/main?style=for-the-badge&cacheSeconds=30
+[last-commit-url]: https://github.com/erikpersson0884/{{REPO_NAME}}/commits/main
 
-[repo-size-shield]: https://img.shields.io/github/repo-size/{{GITHUB_USER}}/{{REPO_NAME}}?style=for-the-badge&cacheSeconds=60
-[repo-size-url]: https://github.com/{{GITHUB_USER}}/{{REPO_NAME}}
+[repo-size-shield]: https://img.shields.io/github/repo-size/erikpersson0884/{{REPO_NAME}}?style=for-the-badge&cacheSeconds=60
+[repo-size-url]: https://github.com/erikpersson0884/{{REPO_NAME}}
 
-[author-shield]: https://img.shields.io/badge/Author-{{AUTHOR_NAME_URL_ENCODED}}-blue?style=for-the-badge
-[author-url]: {{AUTHOR_URL}}
+[author-shield]: https://img.shields.io/badge/Author-Erik_Persson-blue?style=for-the-badge
+[author-url]: https://github.com/erikpersson0884
 
-[build-shield]: https://img.shields.io/github/actions/workflow/status/{{GITHUB_USER}}/{{REPO_NAME}}/{{CI_WORKFLOW_FILE}}?branch={{DEFAULT_BRANCH}}&style=for-the-badge
-[build-url]: https://github.com/{{GITHUB_USER}}/{{REPO_NAME}}/actions
+[build-shield]: https://img.shields.io/github/actions/workflow/status/erikpersson0884/{{REPO_NAME}}/{{CI_WORKFLOW_FILE}}?branch=main&style=for-the-badge
+[build-url]: https://github.com/erikpersson0884/{{REPO_NAME}}/actions
 
 
 <!-- Tech stack shields. Format: https://img.shields.io/badge/NAME-HEXCOLOR?logo=LOGONAME&logoColor=white&style=for-the-badge -->
@@ -215,5 +211,5 @@ Distributed under the {{LICENSE_NAME}} license. See `LICENSE` for more informati
 
 
 <!-- Test coverage shield (requires a workflow that writes .github/coverage.json to a "coverage" branch) -->
-[coverage-shield]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/{{GITHUB_USER}}/{{REPO_NAME}}/coverage/.github/coverage.json&style=for-the-badge&v=2
-[coverage-url]: https://github.com/{{GITHUB_USER}}/{{REPO_NAME}}/actions
+[coverage-shield]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/erikpersson0884/{{REPO_NAME}}/coverage/.github/coverage.json&style=for-the-badge&v=2
+[coverage-url]: https://github.com/erikpersson0884/{{REPO_NAME}}/actions
