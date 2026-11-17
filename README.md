@@ -202,7 +202,7 @@ Distributed under the {{LICENSE_NAME}} license. See `LICENSE` for more informati
 [repo-size-shield]: https://img.shields.io/github/repo-size/erikpersson0884/{{REPO_NAME}}?style=for-the-badge&cacheSeconds=60
 [repo-size-url]: https://github.com/erikpersson0884/{{REPO_NAME}}
 
-[author-shield]: https://img.shields.io/badge/Author-Erik_Persson-blue?style=for-the-badge
+[author-shield]: https://img.shields.io/badge/Author-Erik_Persson-purple?style=for-the-badge
 [author-url]: https://github.com/erikpersson0884
 
 [build-shield]: https://img.shields.io/github/actions/workflow/status/erikpersson0884/{{REPO_NAME}}/{{CI_WORKFLOW_FILE}}?branch=main&style=for-the-badge
