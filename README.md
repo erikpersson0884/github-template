@@ -28,6 +28,7 @@
 
 1. [About the project](#about-the-project)
 1. [Features](#features)
+1. [Screenshots](#screenshots)
 1. [Built with](#built-with)
 1. [Getting started](#getting-started)
 1. [Configuration](#configuration)
@@ -60,6 +61,17 @@ This repository contains **only the {{frontend / backend / library / CLI}}**. It
 - {{Feature two}}
 - {{Feature three}}
 - {{Feature four}}
+
+## Screenshots
+
+| Screenshot 1 | Screenshot 2 | Screenshot 3 |
+|---|---|---|
+| ![Description 1](docs/images/screenshot-1.png) | ![Description 2](docs/images/screenshot-2.png) | ![Description 3](docs/images/screenshot-3.png) |
+
+| Screenshot 4 | Screenshot 5 | Screenshot 6 |
+|---|---|---|
+| ![Description 4](docs/images/screenshot-4.png) | ![Description 5](docs/images/screenshot-5.png) | ![Description 6](docs/images/screenshot-6.png) |
+
 
 # Getting started
 
